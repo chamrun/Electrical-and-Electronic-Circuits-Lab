@@ -1,5 +1,5 @@
-
-**** 12/03/21 10:59:13 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+**** 12/03/21 11:26:52 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-1"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB7\Orcad\lab7-SCHEMATIC1-1.sim
 
@@ -36,7 +36,7 @@ V_V1         N00120 0 DC 0Vdc AC 1Vac
 **** RESUMING lab7-SCHEMATIC1-1.sim.cir ****
 .END
 
-**** 12/03/21 10:59:13 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/03/21 11:26:52 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-1"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB7\Orcad\lab7-SCHEMATIC1-1.sim
 
@@ -67,5 +67,5 @@ V_V1         N00120 0 DC 0Vdc AC 1Vac
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME             .17
+          TOTAL JOB TIME             .25
 
