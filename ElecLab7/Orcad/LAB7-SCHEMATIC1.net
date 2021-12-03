@@ -1,0 +1,4 @@
+* source LAB7
+R_R1         N00120 N00061  1k  
+C_C1         0 N00061  1u   
+V_V1         N00120 0 DC 0Vdc AC 1Vac 
