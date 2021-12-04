@@ -1,0 +1,72 @@
+
+**** 12/04/21 17:59:57 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-15"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8-schematic1-
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "eleclab8-schematic1-15.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 3ms 0 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\eleclab8-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING eleclab8-SCHEMATIC1.net ****
+* source ELECLAB8
+D_D1         N00147 0 D1N4001 
+V_V3         N01246 0  
++SIN 0 6 1000 0 0 0
+V_V7         N03260 0  
++SIN 0 5 1k 0 0 0
+V_V2         N00504 0  
++SIN 0 6 1000 0 0 0
+V_V4         N01704 0  
++SIN 0 6 1000 0 0 0
+D_D6         N03260 N03298 D1N4001 
+V_V6         N02797 0  
++SIN 0 6 1000 0 0 0
+V_V1         N00117 0 0Vdc
+R_R6         N03325 N03298  1k  
+D_D2         N00542 0 D1N4001 
+D_D4         N02167 N01762 D1N4001 
+R_R1         N00117 N00147  1k  
+D_D5         N02835 0 D1N4001 
+V_V8         N03325 0 3Vdc
+R_R5         N02797 N02835  1  
+C_C3         N01704 N01762  1u   
+V_V9         N03915 N04007  
++SIN 0 10 1000 0 0 0
+C_C1         N00504 N00542  1u   
+R_R3         0 N01178  1000k  
+R_R4         0 N01762  1000k  
+R_R7         N03915 N03953  1k  
+D_D3         0 N01178 D1N4001 
+D_D7         N03953 N03980 D1N4001 
+C_C2         N01246 N01178  1u   
+R_R2         0 N00542  1000k  
+V_V5         N02167 0 20Vdc
+D_D8         N04007 N03980 D1N3501 
+
+**** RESUMING eleclab8-schematic1-15.sim.cir ****
+.END
+
+ERROR -- Node N03915 is floating
+ERROR -- Node N04007 is floating
+ERROR -- Node N03953 is floating
+ERROR -- Node N03980 is floating

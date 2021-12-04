@@ -1,6 +1,6 @@
-** Profile: "SCHEMATIC1-15"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8-schematic1-15.sim ] 
+** Profile: "SCHEMATIC1-17"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8-SCHEMATIC1-17.sim ] 
 
-** Creating circuit file "eleclab8-schematic1-15.sim.cir" 
+** Creating circuit file "eleclab8-SCHEMATIC1-17.sim.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
 
 *Libraries: 
@@ -9,7 +9,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.TRAN  0 3ms 0 
+.TRAN  0 4m 0 
 .PROBE V(*) I(*) W(*) D(*) NOISE(*) 
 .INC ".\eleclab8-SCHEMATIC1.net" 
 
