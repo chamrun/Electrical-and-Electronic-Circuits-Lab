@@ -1,8 +1,19 @@
 * source LAB7
-R_R1         N00120 N00061  1k  
-C_C1         0 N00061  1u   
-V_V1         N00120 0 DC 0Vdc AC 1Vac 
+R_R1         N00120 N00061  10k  
+C_C4         N01790 N01840  100n   
+C_C1         0 N00061  100n   
+R_R4         0 N01840  10k  
+C_C5         0 N02450  100n   
+V_V4         N01752 0 DC 0Vdc AC 2Vac 
+V_V1         N00120 0 DC 0Vdc AC 2Vac 
+V_V5         N02580 0  
++PULSE 2 -2 0 1n 1n 250u 500u
+R_R6         0 N02498  10k  
 V_V3         N00560 0  
-+PULSE 4 -4 0 1n 1n 0.5m 1m
-R_R2         N00560 N00614  1k  
-C_C2         0 N00614  1u   
++PULSE 4 -4 0 1n 1n 5m 10m
+R_R2         N00560 N00614  150k  
+C_C6         N02450 N02498  100n   
+R_R3         N01752 N01790  10k  
+C_C2         0 N00614  100n   
+R_R5         N02580 N02450  10k  
+C_C3         0 N01790  100n   

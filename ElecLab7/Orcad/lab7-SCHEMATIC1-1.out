@@ -1,7 +1,7 @@
-
-**** 12/03/21 11:26:52 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-1"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB7\Orcad\lab7-SCHEMATIC1-1.sim
+**** 12/04/21 12:47:27 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ C:\Things\uni\3rdTerm\Elec\Lab\ElectricalAndElectronicCircuitsLab\ElecLab7\Orcad\lab7-schematic1-1.sim
 
 
  ****     CIRCUIT DESCRIPTION
@@ -12,7 +12,7 @@
 
 
 
-** Creating circuit file "lab7-SCHEMATIC1-1.sim.cir" 
+** Creating circuit file "lab7-schematic1-1.sim.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
 
 *Libraries: 
@@ -29,16 +29,20 @@
 
 **** INCLUDING lab7-SCHEMATIC1.net ****
 * source LAB7
-R_R1         N00120 N00061  1k  
-C_C1         0 N00061  1u   
-V_V1         N00120 0 DC 0Vdc AC 1Vac 
+R_R1         N00120 N00061  10k  
+C_C1         0 N00061  100n   
+V_V1         N00120 0 DC 0Vdc AC 2Vac 
+V_V3         N00560 0  
++PULSE 4 -4 0 1n 1n 0.5m 1m
+R_R2         N00560 N00614  1k  
+C_C2         0 N00614  1u   
 
-**** RESUMING lab7-SCHEMATIC1-1.sim.cir ****
+**** RESUMING lab7-schematic1-1.sim.cir ****
 .END
 
-**** 12/03/21 11:26:52 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/04/21 12:47:27 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-1"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB7\Orcad\lab7-SCHEMATIC1-1.sim
+ ** Profile: "SCHEMATIC1-1"  [ C:\Things\uni\3rdTerm\Elec\Lab\ElectricalAndElectronicCircuitsLab\ElecLab7\Orcad\lab7-schematic1-1.sim
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -51,7 +55,7 @@ V_V1         N00120 0 DC 0Vdc AC 1Vac
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(N00061)    0.0000 (N00120)    0.0000 
+(N00061)    0.0000 (N00120)    0.0000 (N00560)    4.0000 (N00614)    4.0000 
 
 
 
@@ -60,6 +64,7 @@ V_V1         N00120 0 DC 0Vdc AC 1Vac
     NAME         CURRENT
 
     V_V1         0.000E+00
+    V_V3         0.000E+00
 
     TOTAL POWER DISSIPATION   0.00E+00  WATTS
 
@@ -67,5 +72,5 @@ V_V1         N00120 0 DC 0Vdc AC 1Vac
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME             .25
+          TOTAL JOB TIME             .09
 

@@ -3,10 +3,10 @@
 @Settings: 0 1
 @General:
 ProfileName= "2" 
-ProfileFile= "lab7-SCHEMATIC1-2.sim" 
+ProfileFile= "lab7-schematic1-2.sim" 
 DesignFile= "lab7.dsn" 0 
 ProjectFile= "Lab7.opj" 
-NetlistFile= "lab7-SCHEMATIC1-2.sim.cir" 
+NetlistFile= "lab7-schematic1-2.sim.cir" 
 RootSchematics= "SCHEMATIC1" 
 DataFile= "lab7-SCHEMATIC1-2.dat" 
 OutFile= "lab7-SCHEMATIC1-2.out" 
@@ -16,7 +16,7 @@ Notes=
 @End General
 @Analysis: 0 1
 +0 0 0 
-+0 "2m" 
++0 "20m" 
 +1 "" 
 +2 "0" 
 +3 "" 

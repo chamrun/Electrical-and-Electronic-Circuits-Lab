@@ -1,0 +1,93 @@
+
+**** 12/04/21 14:02:42 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-4"  [ C:\Things\uni\3rdTerm\Elec\Lab\ElectricalAndElectronicCircuitsLab\ElecLab7\Orcad\lab7-SCHEMATIC1-4.sim
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab7-SCHEMATIC1-4.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 2m 0 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\lab7-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING lab7-SCHEMATIC1.net ****
+* source LAB7
+R_R1         N00120 N00061  10k  
+C_C4         N01790 N01840  100n   
+C_C1         0 N00061  100n   
+R_R4         0 N01840  10k  
+C_C5         0 N02450  100n   
+V_V4         N01752 0 DC 0Vdc AC 2Vac 
+V_V1         N00120 0 DC 0Vdc AC 2Vac 
+V_V5         N02580 0  
++PULSE 2 -2 0 1n 1n 250u 500u
+R_R6         0 N02498  10k  
+V_V3         N00560 0  
++PULSE 4 -4 0 1n 1n 5m 10m
+R_R2         N00560 N00614  150k  
+C_C6         N02450 N02498  100n   
+R_R3         N01752 N01790  10k  
+C_C2         0 N00614  100n   
+R_R5         N02580 N02450  10k  
+C_C3         0 N01790  100n   
+
+**** RESUMING lab7-SCHEMATIC1-4.sim.cir ****
+.END
+
+**** 12/04/21 14:02:42 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-4"  [ C:\Things\uni\3rdTerm\Elec\Lab\ElectricalAndElectronicCircuitsLab\ElecLab7\Orcad\lab7-SCHEMATIC1-4.sim
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00061)    0.0000 (N00120)    0.0000 (N00560)    4.0000 (N00614)    4.0000     
+
+(N01752)    0.0000 (N01790)    0.0000 (N01840)    0.0000 (N02450)    2.0000     
+
+(N02498)    0.0000 (N02580)    2.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V4         0.000E+00
+    V_V1         0.000E+00
+    V_V5         0.000E+00
+    V_V3         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .38
+
