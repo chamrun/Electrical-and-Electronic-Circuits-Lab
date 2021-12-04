@@ -1,5 +1,5 @@
 
-**** 12/04/21 20:16:24 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/04/21 20:23:01 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-3"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8-schematic1-3
 
@@ -21,7 +21,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.TRAN  0 4m 0 
+.TRAN  0 400m 0 
 .PROBE V(*) I(*) W(*) D(*) NOISE(*) 
 .INC ".\eleclab8-SCHEMATIC1.net" 
 
@@ -31,7 +31,7 @@
 * source ELECLAB8
 D_D1         N00147 0 D1N4001 
 V_V3         N01246 0  
-+SIN 0 6 1000 0 0 0
++SIN 0 6 10 0 0 0
 V_V7         N03260 0  
 +SIN 0 5 1k 0 0 0
 V_V2         N00504 0  
@@ -71,7 +71,7 @@ V_V11         0 N05378 3Vdc
 **** RESUMING eleclab8-schematic1-3.sim.cir ****
 .END
 
-**** 12/04/21 20:16:24 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/04/21 20:23:01 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-3"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8-schematic1-3
 
@@ -98,7 +98,7 @@ V_V11         0 N05378 3Vdc
            M     .44             .3333       
 
 
-**** 12/04/21 20:16:24 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/04/21 20:23:01 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-3"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8-schematic1-3
 
@@ -147,5 +147,5 @@ V_V11         0 N05378 3Vdc
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME             .17
+          TOTAL JOB TIME            7.53
 

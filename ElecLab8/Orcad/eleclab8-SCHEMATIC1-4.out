@@ -1,7 +1,7 @@
-
-**** 12/04/21 17:09:57 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-4"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8-SCHEMATIC1-4
+**** 12/04/21 20:26:03 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-4"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8-schematic1-4
 
 
  ****     CIRCUIT DESCRIPTION
@@ -12,7 +12,7 @@
 
 
 
-** Creating circuit file "eleclab8-SCHEMATIC1-4.sim.cir" 
+** Creating circuit file "eleclab8-schematic1-4.sim.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
 
 *Libraries: 
@@ -31,34 +31,49 @@
 * source ELECLAB8
 D_D1         N00147 0 D1N4001 
 V_V3         N01246 0  
-+SIN 0 6 1000 0 0 0
++SIN 0 6 10 0 0 0
+V_V7         N03260 0  
++SIN 0 5 1k 0 0 0
 V_V2         N00504 0  
 +SIN 0 6 1000 0 0 0
 V_V4         N01704 0  
 +SIN 0 6 1000 0 0 0
+D_D6         N03260 N03298 D1N4001 
 V_V6         N02797 0  
 +SIN 0 6 1000 0 0 0
 V_V1         N00117 0 0Vdc
+R_R6         N03325 N03298  1k  
 D_D2         N00542 0 D1N4001 
 D_D4         N02167 N01762 D1N4001 
 R_R1         N00117 N00147  1k  
 D_D5         N02835 0 D1N4001 
-R_R5         N02797 N02835  1k  
+V_V8         N03325 0 2Vdc
+R_R5         N02797 N02835  1  
+D_D9         0 N03980 D02BZ3_3 
 C_C3         N01704 N01762  1u   
+V_V9         N03915 0  
++SIN 0 5 1000 0 0 0
 C_C1         N00504 N00542  1u   
+V_V10         N05313 0  
++SIN 0 10 1000 0 0 0
 R_R3         0 N01178  1000k  
 R_R4         0 N01762  1000k  
+R_R7         N03915 N03953  1k  
+R_R8         N05313 N05351  1k  
 D_D3         0 N01178 D1N4001 
+D_D7         N03953 N03980 D1N4001 
 C_C2         N01246 N01178  1u   
 R_R2         0 N00542  1000k  
-V_V5         N02167 0 20Vdc
+D_D10         N05351 N05378 D1N4001 
+V_V5         N02167 0 2Vdc
+V_V11         0 N05378 3Vdc
 
-**** RESUMING eleclab8-SCHEMATIC1-4.sim.cir ****
+**** RESUMING eleclab8-schematic1-4.sim.cir ****
 .END
 
-**** 12/04/21 17:09:57 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/04/21 20:26:03 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-4"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8-SCHEMATIC1-4
+ ** Profile: "SCHEMATIC1-4"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8-schematic1-4
 
 
  ****     Diode MODEL PARAMETERS
@@ -69,22 +84,23 @@ V_V5         N02167 0 20Vdc
 
 
 
-               D1N4001         
-          IS   14.110000E-09 
-           N    1.984        
-         IKF   94.81         
-          BV   75            
-         IBV   10.000000E-06 
-          RS     .03389      
-          TT    5.700000E-06 
-         CJO   25.890000E-12 
-          VJ     .3245       
-           M     .44         
+               D1N4001         D02BZ3_3        
+          IS   14.110000E-09   10.010000E-21 
+           N    1.984           3.085        
+         ISR                  753.900000E-09 
+         IKF   94.81            5.954        
+          BV   75               3.29         
+         IBV   10.000000E-06    7.846000E-03 
+          RS     .03389          .3718       
+          TT    5.700000E-06   14.430000E-09 
+         CJO   25.890000E-12    1.000000E-12 
+          VJ     .3245           .75         
+           M     .44             .3333       
 
 
-**** 12/04/21 17:09:57 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/04/21 20:26:03 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-4"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8-SCHEMATIC1-4
+ ** Profile: "SCHEMATIC1-4"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8-schematic1-4
 
 
  ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -99,9 +115,13 @@ V_V5         N02167 0 20Vdc
 
 (N00117)    0.0000 (N00147) 22.77E-21 (N00504)    0.0000 (N00542) 13.93E-15     
 
-(N01178)-13.93E-15 (N01246)    0.0000 (N01704)    0.0000 (N01762)   19.6290     
+(N01178)-13.93E-15 (N01246)    0.0000 (N01704)    0.0000 (N01762)    1.7522     
 
-(N02167)   20.0000 (N02797)    0.0000 (N02835) 22.74E-21 
+(N02167)    2.0000 (N02797)    0.0000 (N02835) 1.098E-24 (N03260)    0.0000     
+
+(N03298)    2.0000 (N03325)    2.0000 (N03915)    0.0000 (N03953) 1.466E-15     
+
+(N03980)-100.5E-15 (N05313)    0.0000 (N05351)   -2.3823 (N05378)   -3.0000 
 
 
 
@@ -110,17 +130,22 @@ V_V5         N02167 0 20Vdc
     NAME         CURRENT
 
     V_V3         0.000E+00
+    V_V7         1.411E-08
     V_V2         0.000E+00
     V_V4         0.000E+00
-    V_V6         2.274E-23
+    V_V6         1.098E-24
     V_V1         2.277E-23
-    V_V5        -1.963E-05
+    V_V8        -1.411E-08
+    V_V9         1.466E-18
+    V_V10       -2.382E-03
+    V_V5        -1.752E-06
+    V_V11       -2.382E-03
 
-    TOTAL POWER DISSIPATION   3.93E-04  WATTS
+    TOTAL POWER DISSIPATION   7.15E-03  WATTS
 
 
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME             .53
+          TOTAL JOB TIME             .11
 

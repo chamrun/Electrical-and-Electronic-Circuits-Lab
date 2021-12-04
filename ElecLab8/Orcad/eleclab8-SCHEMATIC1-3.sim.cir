@@ -9,7 +9,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.TRAN  0 4m 0 
+.TRAN  0 400m 0 
 .PROBE V(*) I(*) W(*) D(*) NOISE(*) 
 .INC ".\eleclab8-SCHEMATIC1.net" 
 
