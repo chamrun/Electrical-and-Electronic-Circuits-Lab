@@ -3,10 +3,10 @@
 @Settings: 1 1
 @General:
 ProfileName= "1" 
-ProfileFile= "eleclab8-SCHEMATIC1-1.sim" 
+ProfileFile= "eleclab8-schematic1-1.sim" 
 DesignFile= "eleclab8.dsn" 0 
 ProjectFile= "ElecLab8.opj" 
-NetlistFile= "" 
+NetlistFile= "eleclab8-schematic1-1.sim.cir" 
 RootSchematics= "SCHEMATIC1" 
 DataFile= "eleclab8-SCHEMATIC1-1.dat" 
 OutFile= "eleclab8-SCHEMATIC1-1.out" 
