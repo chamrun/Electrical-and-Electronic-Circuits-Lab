@@ -1,5 +1,5 @@
-
-**** 12/05/21 14:54:57 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+**** 12/05/21 14:58:26 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-15"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8-schematic1-
 
@@ -77,7 +77,7 @@ V_V11         0 N05378 3Vdc
 **** RESUMING eleclab8-schematic1-15.sim.cir ****
 .END
 
-**** 12/05/21 14:54:57 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/05/21 14:58:26 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-15"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8-schematic1-
 
@@ -105,7 +105,7 @@ V_V11         0 N05378 3Vdc
            M     .44             .3333       
 
 
-**** 12/05/21 14:54:57 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/05/21 14:58:26 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-15"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8-schematic1-
 
@@ -158,5 +158,5 @@ V_V11         0 N05378 3Vdc
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME             .11
+          TOTAL JOB TIME             .16
 
