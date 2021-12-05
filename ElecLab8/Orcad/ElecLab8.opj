@@ -54,7 +54,7 @@
          ".\eleclab8-schematic1-1-2.sim"
         (DisplayName "SCHEMATIC1-1-2")
         (Type "PSpice Profile"))
-      (ActiveProfile ".\eleclab8-schematic1-1.sim"))
+      (ActiveProfile ".\eleclab8-schematic1-1-2.sim"))
     (Folder "Model Libraries"
       (Sort User))
     (Folder "Stimulus Files"
@@ -101,25 +101,17 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8.dsn")
-      (Path "Design Resources"
-         "C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8.dsn"
-         "SCHEMATIC1")
-      (Path "Outputs")
-      (Select "Design Resources"
-         "C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8.dsn"
-         "SCHEMATIC1" "1-Hello"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -27 0 302 0 371"))
+        (Placement "44 0 1 -1 -1 -4 -27 0 302 0 371"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 1 0 515 -4 -27 156 1254 156 528")
+        (Placement "44 0 1 0 515 -4 -27 156 1254 156 528")
         (Scroll "250 364")
         (Zoom "291")
         (Occurrence "/"))
@@ -130,7 +122,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 1 237 515 -4 -27 182 1280 182 554")
+        (Placement "44 2 3 237 515 -4 -27 182 1280 181 554")
         (Scroll "1338 446")
         (Zoom "354")
         (Occurrence "/"))
@@ -141,7 +133,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 1 474 515 -4 -27 0 1094 0 368")
+        (Placement "44 0 1 474 515 -4 -27 0 1094 0 368")
         (Scroll "1181 509")
         (Zoom "291")
         (Occurrence "/"))
@@ -152,7 +144,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 1 711 515 -4 -27 26 1124 26 398")
+        (Placement "44 0 1 711 515 -4 -27 26 1124 26 398")
         (Scroll "874 503")
         (Zoom "312")
         (Occurrence "/"))
@@ -163,7 +155,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 1 948 515 -4 -27 78 1176 78 450")
+        (Placement "44 0 1 948 515 -4 -27 78 1176 78 450")
         (Scroll "1109 470")
         (Zoom "291")
         (Occurrence "/"))
@@ -174,7 +166,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 1 0 476 -4 -27 104 1202 104 476")
+        (Placement "44 0 1 0 476 -4 -27 104 1202 104 476")
         (Scroll "520 546")
         (Zoom "215")
         (Occurrence "/"))
@@ -185,7 +177,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 1 237 476 -4 -27 130 1228 130 502")
+        (Placement "44 0 1 237 476 -4 -27 130 1228 130 502")
         (Scroll "1230 575")
         (Zoom "309")
         (Occurrence "/"))
