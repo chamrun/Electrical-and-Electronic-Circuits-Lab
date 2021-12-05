@@ -1,0 +1,162 @@
+
+**** 12/05/21 14:52:17 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-4.5"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8-SCHEMATIC1
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "eleclab8-SCHEMATIC1-4.5.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 6m 0 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\eleclab8-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING eleclab8-SCHEMATIC1.net ****
+* source ELECLAB8
+D_D1         N00147 0 D1N4001 
+V_V3         N01246 0  
++SIN 0 6 10 0 0 0
+V_V7         N03260 0  
++SIN 0 5 1k 0 0 0
+V_V12         N08094 0  
++SIN 0 2 1000 0 0 0
+V_V2         N00504 0  
++SIN 0 6 1000 0 0 0
+V_V4         N01704 0  
++SIN 0 4 1000 0 0 0
+D_D6         N03260 N03298 D1N4001 
+V_V6         N02797 0  
++SIN 0 6 1000 0 0 0
+V_V1         N00117 0 0Vdc
+V_V13         0 N08199 1Vdc
+R_R6         N03325 N03298  1k  
+D_D2         N00542 0 D1N4001 
+D_D4         N02167 N01762 D1N4001 
+R_R1         N00117 N00147  1k  
+D_D12         N08199 N08119 D1N4001 
+D_D5         N02835 0 D1N4001 
+V_V8         N03325 0 2Vdc
+R_R9         0 N08119  10k  
+R_R5         N02797 N02835  1  
+C_C3         N01704 N01762  1u   
+V_V9         N03915 0  
++SIN 0 5 1000 0 0 0
+C_C1         N00504 N00542  1u   
+V_V10         N05313 0  
++SIN 0 10 1000 0 0 0
+C_C4         N08094 N08119  1u   
+R_R3         0 N01178  1000k  
+R_R4         0 N01762  1000k  
+R_R7         N03915 N03953  1k  
+R_R8         N05313 N05351  1k  
+D_D11         0 N03980 BZX84C3V0L 
+D_D3         0 N01178 D1N4001 
+D_D7         N03953 N03980 D1N4001 
+C_C2         N01246 N01178  1u   
+R_R2         0 N00542  1000k  
+D_D10         N05351 N05378 D1N4001 
+V_V5         N02167 0 0Vdc
+V_V11         0 N05378 3Vdc
+
+**** RESUMING eleclab8-SCHEMATIC1-4.5.sim.cir ****
+.END
+
+**** 12/05/21 14:52:17 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-4.5"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8-SCHEMATIC1
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D1N4001         BZX84C3V0L      
+          IS   14.110000E-09    9.651865E-15 
+           N    1.984           1.08213      
+         ISR                    7.538500E-06 
+          NR                    3.41278      
+         IKF   94.81                         
+          BV   75               3.0632       
+         IBV   10.000000E-06     .057477     
+          RS     .03389         5.223448E-03 
+          TT    5.700000E-06  312.135000E-09 
+         CJO   25.890000E-12  170.000000E-12 
+          VJ     .3245           .75         
+           M     .44             .3333       
+
+
+**** 12/05/21 14:52:17 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-4.5"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8-SCHEMATIC1
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00117)    0.0000 (N00147) 22.77E-21 (N00504)    0.0000 (N00542) 13.93E-15     
+
+(N01178)-13.93E-15 (N01246)    0.0000 (N01704)    0.0000 (N01762)-13.93E-15     
+
+(N02167)    0.0000 (N02797)    0.0000 (N02835) 1.098E-24 (N03260)    0.0000     
+
+(N03298)    2.0000 (N03325)    2.0000 (N03915)    0.0000 (N03953) 13.07E-18     
+
+(N03980)-155.1E-18 (N05313)    0.0000 (N05351)   -2.3823 (N05378)   -3.0000     
+
+(N08094)    0.0000 (N08119)-141.1E-06 (N08199)   -1.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V3         0.000E+00
+    V_V7         1.411E-08
+    V_V12        0.000E+00
+    V_V2         0.000E+00
+    V_V4         0.000E+00
+    V_V6         1.098E-24
+    V_V1         2.277E-23
+    V_V13       -1.411E-08
+    V_V8        -1.411E-08
+    V_V9         1.307E-20
+    V_V10       -2.382E-03
+    V_V5         1.393E-20
+    V_V11       -2.382E-03
+
+    TOTAL POWER DISSIPATION   7.15E-03  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .66
+
