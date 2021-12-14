@@ -101,7 +101,15 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Outputs"))
+      (Path "Design Resources"
+         "C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8.dsn")
+      (Path "Design Resources"
+         "C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8.dsn"
+         "SCHEMATIC1" "16"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -118,70 +126,4 @@
       (Path
          "C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\ORCAD\ELECLAB8.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "2-Clamp0"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 237 515 -4 -27 182 1280 181 554")
-        (Scroll "1338 446")
-        (Zoom "354")
-        (Occurrence "/"))
-      (Path
-         "C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\ORCAD\ELECLAB8.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "1-Hello"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 474 515 -4 -27 0 1094 0 368")
-        (Scroll "1181 509")
-        (Zoom "291")
-        (Occurrence "/"))
-      (Path
-         "C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\ORCAD\ELECLAB8.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "16"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 711 515 -4 -27 26 1124 26 398")
-        (Scroll "874 503")
-        (Zoom "312")
-        (Occurrence "/"))
-      (Path
-         "C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\ORCAD\ELECLAB8.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "4-Clamp2DC"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 948 515 -4 -27 78 1176 78 450")
-        (Scroll "1109 470")
-        (Zoom "291")
-        (Occurrence "/"))
-      (Path
-         "C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\ORCAD\ELECLAB8.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "17"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 0 476 -4 -27 104 1202 104 476")
-        (Scroll "520 546")
-        (Zoom "215")
-        (Occurrence "/"))
-      (Path
-         "C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\ORCAD\ELECLAB8.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "4.5-Clamp3DC"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 237 476 -4 -27 130 1228 130 502")
-        (Scroll "1230 575")
-        (Zoom "309")
-        (Occurrence "/"))
-      (Path
-         "C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\ORCAD\ELECLAB8.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "15"))))
+      (Page "2-Clamp0"))))

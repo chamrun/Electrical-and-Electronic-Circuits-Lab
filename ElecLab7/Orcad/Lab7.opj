@@ -69,29 +69,11 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "C:\Things\uni\3rdTerm\Elec\Lab\ElectricalAndElectronicCircuitsLab\ElecLab7\Orcad\lab7.dsn")
-      (Path "Design Resources"
-         "C:\Things\uni\3rdTerm\Elec\Lab\ElectricalAndElectronicCircuitsLab\ElecLab7\Orcad\lab7.dsn"
-         "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources"
-         "C:\Things\uni\3rdTerm\Elec\Lab\ElectricalAndElectronicCircuitsLab\ElecLab7\Orcad\lab7.dsn"
-         "SCHEMATIC1" "PAGE2"))
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 1 0 515 -4 -27 0 200 0 371"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -4 -27 26 1124 26 398")
-        (Scroll "610 260")
-        (Zoom "200")
-        (Occurrence "/"))
-      (Path
-         "C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB7\ORCAD\LAB7.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE4"))))
+        (Placement "44 0 1 0 515 -4 -27 0 200 0 371"))
+      (Tab 0))))
