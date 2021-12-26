@@ -3,10 +3,10 @@
 @Settings: 0 1
 @General:
 ProfileName= "3" 
-ProfileFile= "lab10-SCHEMATIC1-3.sim" 
+ProfileFile= "lab10-schematic1-3.sim" 
 DesignFile= "lab10.dsn" 0 
 ProjectFile= "Lab10.opj" 
-NetlistFile= "" 
+NetlistFile= "lab10-schematic1-3.sim.cir" 
 RootSchematics= "SCHEMATIC1" 
 DataFile= "lab10-SCHEMATIC1-3.dat" 
 OutFile= "lab10-SCHEMATIC1-3.out" 
@@ -19,7 +19,7 @@ Notes=
 +0 "100m" 
 +1 "" 
 +2 "0" 
-+3 "100u" 
++3 "8u" 
 +4 "" 
 +5 "" 
 +6 "" 

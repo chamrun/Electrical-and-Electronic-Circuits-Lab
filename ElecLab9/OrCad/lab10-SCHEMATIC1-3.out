@@ -1,5 +1,5 @@
 
-**** 12/26/21 18:27:51 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/26/21 19:52:04 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-3"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\lab10-schematic1-3.si
 
@@ -21,7 +21,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.TRAN  0 100m 0 100u 
+.TRAN  0 100m 0 8u 
 .PROBE V(*) I(*) W(*) D(*) NOISE(*) 
 .INC ".\lab10-SCHEMATIC1.net" 
 
@@ -82,7 +82,7 @@ V_V15         0 N06597 9Vdc
 **** RESUMING lab10-schematic1-3.sim.cir ****
 .END
 
-**** 12/26/21 18:27:51 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/26/21 19:52:04 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-3"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\lab10-schematic1-3.si
 
@@ -113,7 +113,7 @@ V_V15         0 N06597 9Vdc
          CJO                   10.000000E-12                   10.000000E-12 
 
 
-**** 12/26/21 18:27:51 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/26/21 19:52:04 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-3"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\lab10-schematic1-3.si
 
@@ -148,7 +148,7 @@ V_V15         0 N06597 9Vdc
            D     .87             .87         
 
 
-**** 12/26/21 18:27:51 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/26/21 19:52:04 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-3"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\lab10-schematic1-3.si
 
@@ -338,5 +338,5 @@ V_V15         0 N06597 9Vdc
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME            1.05
+          TOTAL JOB TIME           11.13
 
