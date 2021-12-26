@@ -1,5 +1,5 @@
-
-**** 12/26/21 17:00:49 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+**** 12/26/21 18:25:02 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-3-2"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\lab10-schematic1-3-
 
@@ -82,7 +82,7 @@ V_V15         0 N06597 9Vdc
 **** RESUMING lab10-schematic1-3-2.sim.cir ****
 .END
 
-**** 12/26/21 17:00:49 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/26/21 18:25:02 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-3-2"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\lab10-schematic1-3-
 
@@ -113,7 +113,7 @@ V_V15         0 N06597 9Vdc
          CJO                   10.000000E-12                   10.000000E-12 
 
 
-**** 12/26/21 17:00:49 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/26/21 18:25:02 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-3-2"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\lab10-schematic1-3-
 
@@ -148,7 +148,7 @@ V_V15         0 N06597 9Vdc
            D     .87             .87         
 
 
-**** 12/26/21 17:00:49 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/26/21 18:25:02 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-3-2"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\lab10-schematic1-3-
 
@@ -338,5 +338,5 @@ V_V15         0 N06597 9Vdc
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME            3.72
+          TOTAL JOB TIME            3.19
 
