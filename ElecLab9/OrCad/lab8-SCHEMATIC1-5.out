@@ -1,7 +1,7 @@
-
-**** 12/12/21 17:03:17 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-5"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\lab8-SCHEMATIC1-5.sim
+**** 12/26/21 16:38:02 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-5"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\lab8-schematic1-5.sim
 
 
  ****     CIRCUIT DESCRIPTION
@@ -12,7 +12,7 @@
 
 
 
-** Creating circuit file "lab8-SCHEMATIC1-5.sim.cir" 
+** Creating circuit file "lab8-schematic1-5.sim.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
 
 *Libraries: 
@@ -37,7 +37,7 @@ V_V20         N11275 0 10Vdc
 V_V4         N01659 0 10Vdc
 V_V5         N02013 0 0Vdc
 M_M1         N07794 N07655 0 0 M2N7000
-R_R12         N07794 N07758  10k  
+R_R12         N07794 N07758  5k  
 R_R11         0 N05350  150  
 R_R6         N01953 N02045  100  
 R_R1         N07655 N07758  47k  
@@ -68,12 +68,12 @@ V_V1         N07578 0
 R_R17         0 N11349  100  
 V_V3         N01751 0 0Vdc
 
-**** RESUMING lab8-SCHEMATIC1-5.sim.cir ****
+**** RESUMING lab8-schematic1-5.sim.cir ****
 .END
 
-**** 12/12/21 17:03:17 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/26/21 16:38:02 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-5"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\lab8-SCHEMATIC1-5.sim
+ ** Profile: "SCHEMATIC1-5"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\lab8-schematic1-5.sim
 
 
  ****     Diode MODEL PARAMETERS
@@ -99,9 +99,9 @@ V_V3         N01751 0 0Vdc
          XTI   10.78           -3.84         
 
 
-**** 12/12/21 17:03:17 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/26/21 16:38:02 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-5"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\lab8-SCHEMATIC1-5.sim
+ ** Profile: "SCHEMATIC1-5"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\lab8-schematic1-5.sim
 
 
  ****     MOSFET MODEL PARAMETERS
@@ -152,9 +152,9 @@ V_V3         N01751 0 0Vdc
        XPART    0            
 
 
-**** 12/12/21 17:03:17 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/26/21 16:38:02 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-5"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\lab8-SCHEMATIC1-5.sim
+ ** Profile: "SCHEMATIC1-5"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\lab8-schematic1-5.sim
 
 
  ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -175,7 +175,7 @@ V_V3         N01751 0 0Vdc
 
 (N05350)    2.5438 (N05499)   10.0000 (N05516)    8.4175 (N05556)    5.0000     
 
-(N07578)    0.0000 (N07655)    1.8261 (N07758)   10.0000 (N07794)    7.0269     
+(N07578)    0.0000 (N07655)    1.8261 (N07758)   10.0000 (N07794)    8.5133     
 
 (N07954)    0.0000 (N11275)   10.0000 (N11317)     .9312 (N11349)     .9069     
 
@@ -195,7 +195,7 @@ V_V3         N01751 0 0Vdc
     V_V9        -1.696E-02
     V_V7        -2.004E-02
     V_V8         0.000E+00
-    V_V2        -4.712E-04
+    V_V2        -4.713E-04
     V_V1         0.000E+00
     V_V3         0.000E+00
 
@@ -205,5 +205,5 @@ V_V3         N01751 0 0Vdc
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME             .27
+          TOTAL JOB TIME             .17
 

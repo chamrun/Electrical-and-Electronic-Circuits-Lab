@@ -1,5 +1,5 @@
-
-**** 12/12/21 16:14:41 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+**** 12/26/21 14:03:13 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-4"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\lab8-schematic1-4.sim
 
@@ -29,7 +29,10 @@
 **** INCLUDING lab8-SCHEMATIC1.net ****
 * source LAB8
 C_C1         N07578 N07655  10u   
+V_V22         N11363 0  
++PULSE 10 -10 0 1n 1n 0.01 0.02
 M_M4         N03828 N02776 N02832 N02832 M2N7000
+V_V20         N11275 0 10Vdc
 V_V4         N01659 0 10Vdc
 V_V5         N02013 0 0Vdc
 M_M1         N07794 N07655 0 0 M2N7000
@@ -39,11 +42,13 @@ R_R6         N01953 N02045  100
 R_R1         N07655 N07758  47k  
 M_M5         N05516 N05556 N05350 N05350 M2N7000
 M_M2         N01686 N01751 N01722 N01722 M2N7000
+M_M14         N11317 N11363 N11349 N11349 M2N7000
 R_R2         0 N07655  10.5k  
 R_R7         0 N02776  123114  
 V_V6         N01953 0 10Vdc
 R_R3         0 N01722  100  
 R_R8         N02776 N02715  100k  
+R_R16         N11275 N11317  1k  
 M_M3         N02045 N02013 N02089 N02089 M2N7000
 R_R4         N01659 N01686  1k  
          X_D2 N05499 N05516 D1N5765 
@@ -59,12 +64,13 @@ V_V8         N05556 0
 V_V2         N07758 0 10Vdc
 V_V1         N07578 0  
 +SIN 0 10m 1k 0 0 0
+R_R17         0 N11349  100  
 V_V3         N01751 0 0Vdc
 
 **** RESUMING lab8-schematic1-4.sim.cir ****
 .END
 
-**** 12/12/21 16:14:41 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/26/21 14:03:13 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-4"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\lab8-schematic1-4.sim
 
@@ -92,7 +98,7 @@ V_V3         N01751 0 0Vdc
          XTI   10.78           -3.84         
 
 
-**** 12/12/21 16:14:41 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/26/21 14:03:13 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-4"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\lab8-schematic1-4.sim
 
@@ -145,7 +151,7 @@ V_V3         N01751 0 0Vdc
        XPART    0            
 
 
-**** 12/12/21 16:14:41 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/26/21 14:03:13 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-4"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\lab8-schematic1-4.sim
 
@@ -170,7 +176,9 @@ V_V3         N01751 0 0Vdc
 
 (N07578)    0.0000 (N07655)    1.8261 (N07758)   10.0000 (N07794)    7.0269     
 
-(N07954)    0.0000 (X_D2.4)    9.1191 
+(N07954)    0.0000 (N11275)   10.0000 (N11317)     .9312 (N11349)     .9069     
+
+(N11363)   10.0000 (X_D2.4)    9.1191 
 
 
 
@@ -178,6 +186,8 @@ V_V3         N01751 0 0Vdc
     VOLTAGE SOURCE CURRENTS
     NAME         CURRENT
 
+    V_V22        0.000E+00
+    V_V20       -9.069E-03
     V_V4        -2.083E-07
     V_V5         0.000E+00
     V_V6        -2.083E-07
@@ -188,11 +198,11 @@ V_V3         N01751 0 0Vdc
     V_V1         0.000E+00
     V_V3         0.000E+00
 
-    TOTAL POWER DISSIPATION   3.75E-01  WATTS
+    TOTAL POWER DISSIPATION   4.65E-01  WATTS
 
 
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME             .08
+          TOTAL JOB TIME             .06
 

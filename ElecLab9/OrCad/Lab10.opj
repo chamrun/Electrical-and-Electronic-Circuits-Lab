@@ -30,7 +30,15 @@
          ".\lab10-schematic1-3-2.sim"
         (DisplayName "SCHEMATIC1-3-2")
         (Type "PSpice Profile"))
-      (ActiveProfile ".\lab10-schematic1-3.sim"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lab10-schematic1-4.sim"
+        (DisplayName "SCHEMATIC1-4")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lab10-schematic1-4-2.sim"
+        (DisplayName "SCHEMATIC1-4-2")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\lab10-schematic1-4-2.sim"))
     (Folder "Model Libraries"
       (Sort User))
     (Folder "Stimulus Files"
@@ -39,6 +47,14 @@
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
+    (VPULSE
+      (FullPartName "VPULSE.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
     (r
       (FullPartName "r.Normal")
       (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\ANALOG_P.OLB")
@@ -73,7 +89,7 @@
       (Path "Outputs")
       (Select "Design Resources"
          "C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\lab10.dsn"
-         "SCHEMATIC1" "PAGE3"))
+         "SCHEMATIC1" "PAGE4-2"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -83,22 +99,44 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 121 1215 115 483")
-        (Scroll "0 180")
-        (Zoom "100")
+        (Placement "44 2 1 0 515 -4 -27 52 1150 52 424")
+        (Scroll "289 197")
+        (Zoom "176")
         (Occurrence "/"))
       (Path
-         "C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\Lab10.dsn")
+         "C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\ORCAD\LAB10.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -27 78 1176 78 450")
-        (Scroll "314 263")
-        (Zoom "198")
+        (Placement "44 2 1 237 515 -4 -27 78 1172 78 446")
+        (Scroll "91 113")
+        (Zoom "159")
         (Occurrence "/"))
       (Path
-         "C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\Lab10.dsn")
+         "C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\ORCAD\LAB10.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE3"))))
+      (Page "PAGE2"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 1 474 515 -4 -27 104 1198 104 472")
+        (Scroll "208 251")
+        (Zoom "186")
+        (Occurrence "/"))
+      (Path
+         "C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\ORCAD\LAB10.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE3"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -27 182 1280 182 554")
+        (Scroll "218 180")
+        (Zoom "176")
+        (Occurrence "/"))
+      (Path
+         "C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\ORCAD\LAB10.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE4-2"))))

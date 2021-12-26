@@ -1,6 +1,6 @@
-** Profile: "SCHEMATIC1-2"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\lab10-SCHEMATIC1-2.sim ] 
+** Profile: "SCHEMATIC1-2"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\lab10-schematic1-2.sim ] 
 
-** Creating circuit file "lab10-SCHEMATIC1-2.sim.cir" 
+** Creating circuit file "lab10-schematic1-2.sim.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
 
 *Libraries: 
@@ -9,7 +9,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.TRAN  0 3m 0 1u 
+.TRAN  0 3m 0 3u 
 .PROBE V(*) I(*) W(*) D(*) NOISE(*) 
 .INC ".\lab10-SCHEMATIC1.net" 
 

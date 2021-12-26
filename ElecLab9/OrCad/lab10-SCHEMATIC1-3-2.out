@@ -1,0 +1,342 @@
+
+**** 12/26/21 17:00:49 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-3-2"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\lab10-schematic1-3-
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab10-schematic1-3-2.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 1000 0.001 30k
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\lab10-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING lab10-SCHEMATIC1.net ****
+* source LAB10
+X_U1         0 N00418 N00148 N00185 N00631 LM741
+X_U4         N06058 N05862 N05896 N05954 N05790 LM741
+R_R13         0 N06533  6.8K  
+V_V3         N00766 0  
++SIN 0 1 1k 0 0 0
+C_C1         N04466 N04095  100n   
+V_V6         N03596 0  
++SIN 0 1 1k 0 0 0
+V_V18         N07724 0  
++PULSE -2 2 0 1n 1n 5m 10m
+V_V9         N04043 0  
++SIN 0 2 20 0 0 0
+V_V11         N05896 0 9Vdc
+C_C4         N07630 N07644  100n   
+R_R3         0 N03185  1k  
+R_R8         N06052 N05862  10k  
+V_V1         0 N00185 10Vdc
+V_V19         0 N07894 9Vdc
+X_U5         N06533 N06665 N06829 N06597 N06493 LM741
+V_V8         N04185 0 9Vdc
+V_V5         N03381 0 10Vdc
+V_V16         N06661 0  
++PULSE -2 2 0 1n 1n 5m 10m
+V_V12         0 N05954 9Vdc
+V_V2         N00148 0 10Vdc
+V_V14         N06829 0 9Vdc
+C_C3         N06493 N06665  100n   
+V_V4         0 N03297 10Vdc
+C_C2         N05790 N05862  100n   
+R_R5         N04043 N04095  10k  
+X_U6         N07662 N07644 N07932 N07894 N07630 LM741
+R_R1         N00766 N00418  1k  
+R_R11         N06661 N06665  6.8K  
+V_V17         N07932 0 9Vdc
+R_R4         N03185 N03225  5.6k  
+R_R2         N00418 N00631  5.6k  
+X_U3         N03983 N04095 N04185 N03943 N04466 LM741
+R_R15         N07630 N07644  150k  
+V_V10         N06052 0 DC 0Vdc AC 1Vac 
+R_R7         0 N03983  10k  
+R_R12         N06493 N06665  6.8K  
+R_R10         0 N06058  10k  
+R_R16         0 N07662  150k  
+X_U2         N03596 N03185 N03381 N03297 N03225 LM741
+R_R14         N07724 N07644  150k  
+V_V7         0 N03943 9Vdc
+R_R9         N05790 N05862  10k  
+R_R6         N04466 N04095  10k  
+V_V15         0 N06597 9Vdc
+
+**** RESUMING lab10-schematic1-3-2.sim.cir ****
+.END
+
+**** 12/26/21 17:00:49 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-3-2"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\lab10-schematic1-3-
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.x_lm741.dx X_U1.x_lm741.dy X_U4.x_lm741.dx X_U4.x_lm741.dy 
+          IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
+          RS    1               1.000000E-03    1               1.000000E-03 
+         CJO                   10.000000E-12                   10.000000E-12 
+
+
+               X_U5.x_lm741.dx X_U5.x_lm741.dy X_U6.x_lm741.dx X_U6.x_lm741.dy 
+          IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
+          RS    1               1.000000E-03    1               1.000000E-03 
+         CJO                   10.000000E-12                   10.000000E-12 
+
+
+               X_U3.x_lm741.dx X_U3.x_lm741.dy X_U2.x_lm741.dx X_U2.x_lm741.dy 
+          IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
+          RS    1               1.000000E-03    1               1.000000E-03 
+         CJO                   10.000000E-12                   10.000000E-12 
+
+
+**** 12/26/21 17:00:49 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-3-2"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\lab10-schematic1-3-
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.x_lm741.qx X_U4.x_lm741.qx X_U5.x_lm741.qx X_U6.x_lm741.qx 
+               NPN             NPN             NPN             NPN             
+          IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
+          BF   93.75           93.75           93.75           93.75         
+          NF    1               1               1               1            
+          BR    1               1               1               1            
+          NR    1               1               1               1            
+          CN    2.42            2.42            2.42            2.42         
+           D     .87             .87             .87             .87         
+
+
+               X_U3.x_lm741.qx X_U2.x_lm741.qx 
+               NPN             NPN             
+          IS  800.000000E-18  800.000000E-18 
+          BF   93.75           93.75         
+          NF    1               1            
+          BR    1               1            
+          NR    1               1            
+          CN    2.42            2.42         
+           D     .87             .87         
+
+
+**** 12/26/21 17:00:49 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-3-2"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB9\OrCad\lab10-schematic1-3-
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00148)   10.0000 (N00185)  -10.0000 (N00418) 19.25E-06 (N00631) 573.7E-06     
+
+(N00766)    0.0000 (N03185) 19.25E-06 (N03225) 573.7E-06 (N03297)  -10.0000     
+
+(N03381)   10.0000 (N03596)    0.0000 (N03943)   -9.0000 (N03983)-797.3E-06     
+
+(N04043)    0.0000 (N04095)-778.0E-06 (N04185)    9.0000 (N04466)-758.3E-06     
+
+(N05790)-758.3E-06 (N05862)-778.0E-06 (N05896)    9.0000 (N05954)   -9.0000     
+
+(N06052)    0.0000 (N06058)-797.3E-06 (N06493)    1.9995 (N06533)-542.2E-06     
+
+(N06597)   -9.0000 (N06661)   -2.0000 (N06665)-533.2E-06 (N06829)    9.0000     
+
+(N07630)    1.9881 (N07644)    -.0120 (N07662)    -.0120 (N07724)   -2.0000     
+
+(N07894)   -9.0000 (N07932)    9.0000 (X_U1.x_lm741.6)-55.74E-09                
+
+(X_U1.x_lm741.7) 578.7E-06            (X_U1.x_lm741.8) 578.7E-06                
+
+(X_U1.x_lm741.9)    0.0000            (X_U2.x_lm741.6)-55.75E-09                
+
+(X_U2.x_lm741.7) 578.7E-06            (X_U2.x_lm741.8) 578.7E-06                
+
+(X_U2.x_lm741.9)    0.0000            (X_U3.x_lm741.6) 71.18E-09                
+
+(X_U3.x_lm741.7)-758.2E-06            (X_U3.x_lm741.8)-758.2E-06                
+
+(X_U3.x_lm741.9)    0.0000            (X_U4.x_lm741.6) 71.18E-09                
+
+(X_U4.x_lm741.7)-758.2E-06            (X_U4.x_lm741.8)-758.2E-06                
+
+(X_U4.x_lm741.9)    0.0000            (X_U5.x_lm741.6)-192.7E-06                
+
+(X_U5.x_lm741.7)    2.0142            (X_U5.x_lm741.8)    2.0142                
+
+(X_U5.x_lm741.9)    0.0000            (X_U6.x_lm741.6)-187.6E-06                
+
+(X_U6.x_lm741.7)    1.9887            (X_U6.x_lm741.8)    1.9887                
+
+(X_U6.x_lm741.9)    0.0000            (X_U1.x_lm741.10)    -.6077               
+
+(X_U1.x_lm741.11)    9.9603           (X_U1.x_lm741.12)    9.9603               
+
+(X_U1.x_lm741.13)    -.5938           (X_U1.x_lm741.14)    -.5938               
+
+(X_U1.x_lm741.53)    9.0000           (X_U1.x_lm741.54)   -9.0000               
+
+(X_U1.x_lm741.90) 99.01E-06           (X_U1.x_lm741.91)   40.0000               
+
+(X_U1.x_lm741.92)  -40.0000           (X_U1.x_lm741.99)    0.0000               
+
+(X_U2.x_lm741.10)    -.6077           (X_U2.x_lm741.11)    9.9603               
+
+(X_U2.x_lm741.12)    9.9603           (X_U2.x_lm741.13)    -.5938               
+
+(X_U2.x_lm741.14)    -.5938           (X_U2.x_lm741.53)    9.0000               
+
+(X_U2.x_lm741.54)   -9.0000           (X_U2.x_lm741.90) 99.01E-06               
+
+(X_U2.x_lm741.91)   40.0000           (X_U2.x_lm741.92)  -40.0000               
+
+(X_U2.x_lm741.99)    0.0000           (X_U3.x_lm741.10)    -.6085               
+
+(X_U3.x_lm741.11)    8.9603           (X_U3.x_lm741.12)    8.9603               
+
+(X_U3.x_lm741.13)    -.5946           (X_U3.x_lm741.14)    -.5946               
+
+(X_U3.x_lm741.53)    8.0000           (X_U3.x_lm741.54)   -8.0000               
+
+(X_U3.x_lm741.90) 1.967E-06           (X_U3.x_lm741.91)   40.0000               
+
+(X_U3.x_lm741.92)  -40.0000           (X_U3.x_lm741.99)    0.0000               
+
+(X_U4.x_lm741.10)    -.6085           (X_U4.x_lm741.11)    8.9603               
+
+(X_U4.x_lm741.12)    8.9603           (X_U4.x_lm741.13)    -.5946               
+
+(X_U4.x_lm741.14)    -.5946           (X_U4.x_lm741.53)    8.0000               
+
+(X_U4.x_lm741.54)   -8.0000           (X_U4.x_lm741.90) 1.967E-06               
+
+(X_U4.x_lm741.91)   40.0000           (X_U4.x_lm741.92)  -40.0000               
+
+(X_U4.x_lm741.99)    0.0000           (X_U5.x_lm741.10)    -.6082               
+
+(X_U5.x_lm741.11)    8.9603           (X_U5.x_lm741.12)    8.9603               
+
+(X_U5.x_lm741.13)    -.5943           (X_U5.x_lm741.14)    -.5943               
+
+(X_U5.x_lm741.53)    8.0000           (X_U5.x_lm741.54)   -8.0000               
+
+(X_U5.x_lm741.90)     .2941           (X_U5.x_lm741.91)   40.0000               
+
+(X_U5.x_lm741.92)  -40.0000           (X_U5.x_lm741.99)    0.0000               
+
+(X_U6.x_lm741.10)    -.6196           (X_U6.x_lm741.11)    8.9603               
+
+(X_U6.x_lm741.12)    8.9603           (X_U6.x_lm741.13)    -.6057               
+
+(X_U6.x_lm741.14)    -.6058           (X_U6.x_lm741.53)    8.0000               
+
+(X_U6.x_lm741.54)   -8.0000           (X_U6.x_lm741.90)     .0133               
+
+(X_U6.x_lm741.91)   40.0000           (X_U6.x_lm741.92)  -40.0000               
+
+(X_U6.x_lm741.99)    0.0000           
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V3         1.925E-08
+    V_V6        -7.973E-08
+    V_V18        1.325E-05
+    V_V9        -7.780E-08
+    V_V11       -1.006E-03
+    V_V1        -1.116E-03
+    V_V19       -1.006E-03
+    V_V8        -1.006E-03
+    V_V5        -1.116E-03
+    V_V16        2.940E-04
+    V_V12       -1.006E-03
+    V_V2        -1.116E-03
+    V_V14       -1.006E-03
+    V_V4        -1.116E-03
+    V_V17       -1.006E-03
+    V_V10       -7.780E-08
+    V_V7        -1.006E-03
+    V_V15       -1.006E-03
+    X_U1.x_lm741.vb  -5.574E-13
+    X_U1.x_lm741.vc   9.000E-12
+    X_U1.x_lm741.ve   9.095E-12
+    X_U1.x_lm741.vlim   9.901E-08
+    X_U1.x_lm741.vlp  -4.000E-11
+    X_U1.x_lm741.vln  -4.000E-11
+    X_U4.x_lm741.vb   7.118E-13
+    X_U4.x_lm741.vc   8.002E-12
+    X_U4.x_lm741.ve   8.185E-12
+    X_U4.x_lm741.vlim   1.967E-09
+    X_U4.x_lm741.vlp  -4.000E-11
+    X_U4.x_lm741.vln  -4.000E-11
+    X_U5.x_lm741.vb  -1.927E-09
+    X_U5.x_lm741.vc   6.001E-12
+    X_U5.x_lm741.ve   1.000E-11
+    X_U5.x_lm741.vlim   2.941E-04
+    X_U5.x_lm741.vlp  -3.971E-11
+    X_U5.x_lm741.vln  -4.030E-11
+    X_U6.x_lm741.vb  -1.876E-09
+    X_U6.x_lm741.vc   6.013E-12
+    X_U6.x_lm741.ve   1.000E-11
+    X_U6.x_lm741.vlim   1.333E-05
+    X_U6.x_lm741.vlp  -3.999E-11
+    X_U6.x_lm741.vln  -4.002E-11
+    X_U3.x_lm741.vb   7.118E-13
+    X_U3.x_lm741.vc   8.002E-12
+    X_U3.x_lm741.ve   8.185E-12
+    X_U3.x_lm741.vlim   1.967E-09
+    X_U3.x_lm741.vlp  -4.000E-11
+    X_U3.x_lm741.vln  -4.000E-11
+    X_U2.x_lm741.vb  -5.575E-13
+    X_U2.x_lm741.vc   9.000E-12
+    X_U2.x_lm741.ve   9.096E-12
+    X_U2.x_lm741.vlim   9.901E-08
+    X_U2.x_lm741.vlp  -4.000E-11
+    X_U2.x_lm741.vln  -4.000E-11
+
+    TOTAL POWER DISSIPATION   1.18E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME            3.72
+
