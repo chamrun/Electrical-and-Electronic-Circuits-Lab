@@ -1,7 +1,7 @@
-
-**** 01/05/22 18:27:00 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-4"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8-schematic1-4
+**** 01/05/22 18:27:28 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-new"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8-SCHEMATIC1
 
 
  ****     CIRCUIT DESCRIPTION
@@ -12,7 +12,7 @@
 
 
 
-** Creating circuit file "eleclab8-schematic1-4.sim.cir" 
+** Creating circuit file "eleclab8-SCHEMATIC1-new.sim.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
 
 *Libraries: 
@@ -73,12 +73,12 @@ D_D10         N05351 N05378 D1N4001
 V_V5         N02167 0 -2Vdc
 V_V11         0 N05378 3Vdc
 
-**** RESUMING eleclab8-schematic1-4.sim.cir ****
+**** RESUMING eleclab8-SCHEMATIC1-new.sim.cir ****
 .END
 
-**** 01/05/22 18:27:00 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 01/05/22 18:27:28 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-4"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8-schematic1-4
+ ** Profile: "SCHEMATIC1-new"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8-SCHEMATIC1
 
 
  ****     Diode MODEL PARAMETERS
@@ -104,9 +104,9 @@ V_V11         0 N05378 3Vdc
            M     .44             .3333       
 
 
-**** 01/05/22 18:27:00 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 01/05/22 18:27:28 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-4"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8-schematic1-4
+ ** Profile: "SCHEMATIC1-new"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8-SCHEMATIC1
 
 
  ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -157,5 +157,5 @@ V_V11         0 N05378 3Vdc
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME             .14
+          TOTAL JOB TIME             .09
 

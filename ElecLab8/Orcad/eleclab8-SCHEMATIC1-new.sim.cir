@@ -1,0 +1,17 @@
+** Profile: "SCHEMATIC1-new"  [ C:\THINGS\UNI\3RDTERM\ELEC\LAB\ELECTRICALANDELECTRONICCIRCUITSLAB\ELECLAB8\Orcad\eleclab8-SCHEMATIC1-new.sim ] 
+
+** Creating circuit file "eleclab8-SCHEMATIC1-new.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 4m 0 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\eleclab8-SCHEMATIC1.net" 
+
+
+.END
